@@ -1,0 +1,5 @@
+.vscode/
+build/
+main.exe
+notes.txt
+Makefile

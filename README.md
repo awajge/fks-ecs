@@ -12,6 +12,6 @@ current state: 32 bit unique entity (identifier) factory
  - extreme portability: c99 + stdint & stdlib, no external libs
 ---
 startup:
-include fks.h then run fks_init() to get your entity allocator. use fks_create() and fks_destroy() for creating/destroying entity ids, fks_entity_count() to get the total entity#, and fks_vital() to check if an id is alive anymore. make sure to run fks_fini() to avoid memory leaks.
+include fks.h (in ../include/) then run fks_init() to get your entity allocator. use fks_create() and fks_destroy() for creating/destroying entity ids, fks_entity_count() to get the total entity#, and fks_vital() to check if an id is alive anymore. make sure to run fks_fini() to avoid memory leaks.
 
 #### I recommend installing [Makefile](https://www.gnu.org/software/make/) to build & run.

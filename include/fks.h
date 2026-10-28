@@ -1,5 +1,5 @@
-#ifndef FKS_ENTITY_H
-#define FKS_ENTITY_H
+#ifndef FKS_H
+#define FKS_H
 
 #include <stdint.h>
 #include <stdbool.h>

@@ -22,7 +22,7 @@ include fks.h then run fks_init() to get your entity allocator. make sure to run
  - passing a NULL fks_world_t will result in underinfed behavior
 
 ### changes (v1):
- - minor bugfixes, cleaned up code naming (fks_instance_t -> fks_world_t etc.)
+ - minor bugfixes, cleaned up code naming (fks_instance_t -> fks_world_t, fks_entity.c/.h -> fks.c/.h)
  - removed fks_status_t to use stdbool true & false
  - fun
 

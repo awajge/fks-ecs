@@ -1,7 +1,5 @@
 .vscode/
 build/
-main.exe
+src/test.c
 notes.txt
 Makefile
-src/test.c
-test.exe

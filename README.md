@@ -1,4 +1,4 @@
-# frankenstein-ecs
+# fks-ecs
 a project meant to develop into an ecs. currently only a few, but optimized, features  
 current state: 32 bit unique entity (identifier) factory
 
